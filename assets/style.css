@@ -1,0 +1,24 @@
+/* goal: 
+- align everything to be in the center 
+- make background a peaceful color
+- make a color scheme
+- make boxes for each section: flexbox maybe
+- border each project image with : glow, expanding effect when hovering
+- make all three images in a row, and have titles centered on top of each image
+- add media enquiries to accomadate smaller size screens*/
+:root {
+    --imgbord: salmon;
+ 
+
+}
+body{
+    color: aquamarine;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: black;
+    color: black;
+}
