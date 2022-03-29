@@ -8,17 +8,13 @@
 - add media enquiries to accomadate smaller size screens*/
 :root {
     --imgbord: salmon;
- 
 
 }
-body{
-    color: aquamarine;
-}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: black;
-    color: black;
+    background-color: var(--imgbord);
 }
