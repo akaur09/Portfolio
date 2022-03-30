@@ -1,14 +1,13 @@
 # Portfolio: fill in using this guide
 
 ## Description 
-what was done?
+
 In this assignment, I created a portfolio website which displays the work I have done so far. I included three websites that I have completed; refactoring a code, collecting contact information, and a mini project. 
-why was it done? 
-This portfolio was created 
-how was it done?
 
+This portfolio was created to put my work out for potential employers to see in one space.
 
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? 
+This portfolio was created using HTML and CSS. A navigation bar was added to with a header. Three sections were made and divided by content; about me, projects and contact me. 
+
 
 
 Porfolio website:https://akaur09.github.io/Portfolio/
