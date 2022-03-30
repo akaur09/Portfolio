@@ -8,19 +8,21 @@
 - add media enquiries to accomadate smaller size screens
 - fox header to teh top of page*/
 :root {
-    --imgbord: salmon;
     --color: #EE7879; 
     --color2: #2A3166;
     --color3: #F4ABAA; 
-
+    --color4: #4982cc;
 }
-
+main{
+    background-color: var(--color2); 
+    color: white;
+}
 header { 
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: var(--imgbord);
+    background-color: var(--color4)
 }
 /* make projects section into a row */
 .projhead {
@@ -34,7 +36,8 @@ header {
   }
 
 .footer{
-    position: fixed;
+    display: flex;
+    position: relative;
     text-align: center;
 }
 
@@ -43,5 +46,5 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
+
  }
