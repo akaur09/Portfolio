@@ -2,9 +2,9 @@
 
 ## Description 
 what was done?
-
+In this assignment, I created a portfolio website which displays the work I have done so far. I included three websites that I have completed; refactoring a code, collecting contact information, and a mini project. 
 why was it done? 
-
+This portfolio was created 
 how was it done?
 
 
