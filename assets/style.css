@@ -5,16 +5,43 @@
 - make boxes for each section: flexbox maybe
 - border each project image with : glow, expanding effect when hovering
 - make all three images in a row, and have titles centered on top of each image
-- add media enquiries to accomadate smaller size screens*/
+- add media enquiries to accomadate smaller size screens
+- fox header to teh top of page*/
 :root {
     --imgbord: salmon;
+    --color: #EE7879; 
+    --color2: #2A3166;
+    --color3: #F4ABAA; 
 
 }
 
-header {
+header { 
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
     background-color: var(--imgbord);
 }
+/* make projects section into a row */
+.projhead {
+   text-align: center; 
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+  }
+
+.footer{
+    position: fixed;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+ }
