@@ -1,4 +1,4 @@
-# Portfolio: fill in using this guide
+# Portfolio: 
 
 ## Description 
 
