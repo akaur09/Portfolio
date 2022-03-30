@@ -14,9 +14,6 @@ At a minimum, your project README needs a title and a short description explaini
 Porfolio website:https://akaur09.github.io/Portfolio/
 
 
-## Usage
-
-
 
 ## Credits
 
