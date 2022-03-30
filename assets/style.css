@@ -1,12 +1,4 @@
-/* goal: 
-- align everything to be in the center 
-- make background a peaceful color
-- make a color scheme
-- make boxes for each section: flexbox maybe
-- border each project image with : glow, expanding effect when hovering
-- make all three images in a row, and have titles centered on top of each image
-- add media enquiries to accomadate smaller size screens
-- fox header to teh top of page*/
+
 :root {
     --color: #EE7879; 
     --color2: #2A3166;
@@ -25,7 +17,7 @@ header {
     padding: 1%;
     background-color: var(--color4)
 }
-/* make projects section into a row */
+
 .projhead {
    text-align: center; 
 }
@@ -57,7 +49,9 @@ footer{
     text-align: center;
     background-color: var(--color);
 }
-
+h4{
+    text-align: center;
+}
 @media screen and (min-width: 768px) {
     .projdetail{
       flex: 0 0 50%;
