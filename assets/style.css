@@ -16,6 +16,7 @@
 main{
     background-color: var(--color2); 
     color: white;
+   
 }
 header { 
     display: flex;
@@ -28,23 +29,34 @@ header {
 .projhead {
    text-align: center; 
 }
-.projects {
+h2{
+   justify-content: center;
+}
+.projdetail {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     text-align: center;
-  }
+    justify-content: center;
+    align-items: center;
+}
 
 .footer{
     display: flex;
     position: relative;
     text-align: center;
 }
-
-@media screen and (min-width: 992px) {
-
-}
-
 @media screen and (min-width: 768px) {
-
- }
+    .projdetail{
+      flex: 0 0 50%;
+    max-width: 50%;   
+}   
+    }
+   
+@media screen and (max-width: 992px){
+    .projdetail{
+        flex: 0 0 33%;
+        max-width: 33%;   
+    }
+     
+}
