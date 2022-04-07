@@ -8,7 +8,18 @@ This portfolio was created to put my work out for potential employers to see in 
 
 This portfolio was created using HTML and CSS. A navigation bar was added to with a header. Three sections were made and divided by content; about me, projects and contact me. 
 
-
+Example of Navbar used:
+```
+ <header>
+      <h1>Web Development</h1>
+        <nav>
+            <a class="active" href="#home">Home</a>
+            <a href="#spy-about">About me</a>
+            <a href="#spy-projects">Projects</a>
+            <a href="#spy-contact">Contact Me</a>
+       </nav>
+  </header> 
+```
 
 Porfolio website:https://akaur09.github.io/Portfolio/
 
