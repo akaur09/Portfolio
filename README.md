@@ -20,6 +20,8 @@ Example of Navbar used:
        </nav>
   </header> 
 ```
+Image of wepage:
+![Alt text](./assets/images/Screen%20Shot%202022-04-12%20at%2011.38.10%20PM.png)
 
 Porfolio website:https://akaur09.github.io/Portfolio/
 
